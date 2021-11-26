@@ -56,7 +56,7 @@ namespace Lipa_Na_Mpesa.Controllers
                 var client = new RestClient("https://sandbox.safaricom.co.ke/mpesa/b2c/v1/paymentrequest");
                 client.Timeout = -1;
                 var request = new RestRequest(Method.POST);
-                request.AddHeader("Authorization", "Bearer BeQAwTwxmkLRka5oH27yakU6SzG6");
+                request.AddHeader("Authorization", "Bearer BeQAwTwxmkLRka5oH27yakU6SzG6YESJ");
                 request.AddHeader("Content-Type", "application/json");
 
                 request.AddParameter("application/json", body, ParameterType.RequestBody);
