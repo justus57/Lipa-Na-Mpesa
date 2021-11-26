@@ -84,7 +84,5 @@ namespace Lipa_Na_Mpesa.Controllers
                 };
                 return this.Request.CreateResponse(HttpStatusCode.OK, res);
             }
-        
-
     }
 }

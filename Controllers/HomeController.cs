@@ -11,7 +11,6 @@ namespace Lipa_Na_Mpesa.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
             return View();
         }
     }

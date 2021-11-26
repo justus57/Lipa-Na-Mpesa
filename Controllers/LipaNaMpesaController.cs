@@ -19,7 +19,6 @@ namespace Lipa_Na_Mpesa.Controllers
             //call Lipa Na MPESA to init STK Push
             string requestresponse = "";
 
-
             Models.LipaNaMPESARequestResponse jsonLNMRequestResponse = JsonConvert.DeserializeObject<Models.LipaNaMPESARequestResponse>(requestresponse);
 
             string MerchantRequestID = jsonLNMRequestResponse.MerchantRequestID;

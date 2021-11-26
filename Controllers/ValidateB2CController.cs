@@ -56,9 +56,6 @@ namespace Lipa_Na_Mpesa.Controllers
                 Log.WriteLog(es.Message);
             }
 
-
-
-
             res = new ValidateC2BRequestResponse
             {
                 ResultCode = ResultCode,
