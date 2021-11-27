@@ -159,9 +159,13 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\BResponseController.cs" />
+    <Compile Include="Controllers\BTCTOController.cs" />
+    <Compile Include="Controllers\confirmctbController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InitiateB2CController.cs" />
     <Compile Include="Controllers\LipaNaMpesaController.cs" />
+    <Compile Include="Controllers\LNMResponseController.cs" />
     <Compile Include="Controllers\ValidateB2CController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
