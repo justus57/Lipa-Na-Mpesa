@@ -12,15 +12,9 @@ namespace Lipa_Na_Mpesa.Controllers
         public HttpResponseMessage Post([FromBody] dynamic dynamicstuff)
         {
             var res = new Models.Response { };
-
-
-            Log.WriteLog("------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
+          
             Log.WriteLog("B2C QueTimeout Response: ");
             Log.WriteLog(dynamicstuff.ToString());
-
-            Log.WriteLog("------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
 
             res = new Models.Response
             {

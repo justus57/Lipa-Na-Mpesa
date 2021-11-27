@@ -28,12 +28,9 @@ namespace Lipa_Na_Mpesa.Controllers
             string FirstName = value.FirstName;
             string MiddleName = value.MiddleName;
             string LastName = value.LastName;
-
-            Log.WriteLog("------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
+     
             Log.WriteLog("Confirm C2B: ");
             Log.WriteLog(value.ToString());
-
 
             try
             {
@@ -44,10 +41,6 @@ namespace Lipa_Na_Mpesa.Controllers
             {
                 Log.WriteLog(es.Message);
             }
-
-            Log.WriteLog("------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
-
             resp = new Models.Response
             {
                 status = "200",
